@@ -1,12 +1,6 @@
 <div class="container">
   <h1 class="display-1">Ru Paul's Cocktails</h1>
-  <!-- <div class="cocktails">
-    <% @cocktails.each do |cock| %>
-      <div class="card border-info mb-3" style="max-width: 18rem;"><%= link_to cock.name, cocktail_path(cock) %></div>
-    <%end %>
-  </div> -->
   <button type="button" class="btn btn-outline-light"><%= link_to "Create a new fancy Cocktail", new_cocktail_path%></button>
-
   <div class="row row-cols-1 row-cols-md-2">
       <% @cocktails.each do |cock| %>
         <div class="card-body">
@@ -16,3 +10,11 @@
       <%end%>
   </div>
 </div>
+
+
+
+<!-- <div class="cocktails">
+    <% @cocktails.each do |cock| %>
+      <div class="card border-info mb-3" style="max-width: 18rem;"><%= link_to cock.name, cocktail_path(cock) %></div>
+    <%end %>
+  </div> -->

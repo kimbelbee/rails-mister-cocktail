@@ -28,7 +28,8 @@ body {
 }
 
 .container {
-
+  display: flex;
+  align-content: center;
 }
 .list {
   display: flex;
