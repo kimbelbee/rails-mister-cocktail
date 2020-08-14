@@ -1,0 +1,9 @@
+<h1>Doses new</h1>
+<h3>Doses needed for each ingredient </h3>
+<!-- For for THE USER, who chooses the ingredient and types in the needed doses -->
+<%= simple_form_for [@cocktail, @dose] do |f| %>
+  <%= f.association :ingredient %>
+  <%= f.input :description %>
+  <%= f.button :submit %>
+<% end %>
+
