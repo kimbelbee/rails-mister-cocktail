@@ -17,7 +17,7 @@ json.each do |ingr|
  puts ingredient.name
 end
 
-10.times do
+20.times do
   Cocktail.create(name: Faker::TvShows::RuPaul.queen)
 end
 

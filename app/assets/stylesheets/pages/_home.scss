@@ -4,7 +4,7 @@ h1 {
 }
 body {
   background-image: url(cocktail.jpg);
-  background-size: 1000px auto;
+  background-size: 900px auto;
   background-repeat: no-repeat;
 }
 
@@ -12,9 +12,11 @@ body {
   border-radius: solid, 10px;
 }
 
-.button {
+.btn {
   border: solid 10 px;
-  background-color: orange;
+  height: 1500px;
+  text-align: top;
+  margin: 0px 10px;
 }
 
 .card-body {
